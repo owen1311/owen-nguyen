@@ -1,5 +1,5 @@
 # Smart Finance Assistant: Budget Buddy
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/owen1311/owen-nguyen/blob/main/smart_finance_assistant.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://github.com/owen1311/owen-nguyen/blob/main/smart_finance_assistant.ipynb](https://colab.research.google.com/drive/1Q-ZsOiXfvTGaQQ9XxFsC9eqziNQZFtNp#scrollTo=DcdrqYVQA45i)
 ## Project Overview
 
 Budget Buddy is a Smart Finance Assistant built with Python, pandas and Gradio. The assistant helps users analyse personal finance transaction data from a CSV file.
