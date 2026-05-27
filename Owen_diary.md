@@ -3,6 +3,7 @@
 ## Week 8 AI Evidence Package
 
 ### Artifact
+Screenshot: screenshots/week8_ai_interaction.png
 <img width="1088" height="778" alt="week8_ai_interaction png" src="https://github.com/user-attachments/assets/d6abe14b-2f18-44d0-a046-555125cd7f66" />
 
 
@@ -18,6 +19,8 @@ AI helped me understand that the project needed a chatbot, RAG component, custom
 
 ### Artifact
 Screenshot: screenshots/week9_ai_interaction.png
+<img width="1070" height="783" alt="week9_ai_interaction png" src="https://github.com/user-attachments/assets/f22dfbfa-59c9-4f3a-afde-441ba4d17212" />
+
 
 ### Context
 I used AI to plan the CSV structure, inputs, outputs and pseudocode for the project.
@@ -31,6 +34,8 @@ AI helped me identify the required CSV columns: date, description, category, amo
 
 ### Artifact
 Screenshot: screenshots/week10_ai_interaction.png
+<img width="1193" height="784" alt="week10_ai_interaction png" src="https://github.com/user-attachments/assets/3b482e6c-35bc-400a-ae16-f12fde126668" />
+
 
 ### Context
 I used AI to help write the CSV loading, validation and transaction summary functions.
@@ -44,6 +49,7 @@ AI gave me useful starting code for loading and cleaning the CSV file. However, 
 
 ### Artifact
 Screenshot: screenshots/week11_ai_interaction.png
+<img width="1139" height="781" alt="week11_ai_interaction png" src="https://github.com/user-attachments/assets/a5c94bcf-204a-49e6-bdf1-a9bac4c6cedf" />
 
 ### Context
 I used AI to help build the finance chatbot, RAG-style context, savings goal calculator and Gradio interface.
@@ -57,6 +63,7 @@ AI helped me connect the different parts of the app into a simple interface. The
 
 ### Artifact
 Screenshot: screenshots/week12_ai_interaction.png
+<img width="1084" height="725" alt="week12_ai_interaction png" src="https://github.com/user-attachments/assets/284f40b2-b61e-4bba-8287-87e1cee497a6" />
 
 ### Context
 I used AI to improve the testing section and create edge case tests.
