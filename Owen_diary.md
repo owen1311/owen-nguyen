@@ -1,5 +1,5 @@
 # Developer's Diary
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Q-ZsOiXfvTGaQQ9XxFsC9eqziNQZFtNp#scrollTo=DcdrqYVQA45i)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/owen1311/owen-nguyen/blob/main/smart_finance_assistant.ipynb)
 
 ## Week 8 AI Evidence Package
 
