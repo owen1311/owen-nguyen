@@ -43,7 +43,7 @@ date,description,category,amount,type
 2026-05-06,Phone bill,Utilities,60,expense
 2026-05-07,Part-time income,Income,300,income
 How to Run the Project
-Open smart_finance_assistant.ipynb in Google Colab.
+Open starter_notebook.ipynb in Google Colab.
 Run the package installation cell.
 Run the import library cell.
 Run all function cells.
