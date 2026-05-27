@@ -81,14 +81,21 @@ Monthly saving amount
 
 The tool will calculate how many months are needed to reach the savings goal.
 
-Project Structure
-smart-finance-assistant/
+
+Nếu bạn muốn repo nhìn gọn hơn, có thể dùng bản ngắn này:
+
+```markdown
+## Project Structure
+
+owen-nguyen/
 │
-├── smart_finance_assistant.ipynb
 ├── README.md
-├── diary.md
+├── LICENSE
+├── Owen_diary.md
 ├── sample_transactions.csv
-└── screenshots/
+├── starter_notebook.ipynb
+├── smart_finance_project.md
+└── AI-CONVERSATIONS/
 Testing
 
 The notebook includes a testing section with normal cases, edge cases and error cases.
