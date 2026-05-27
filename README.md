@@ -1,101 +1,111 @@
-# 📊 Smart Finance Assistant – Student Project Template
+# Smart Finance Assistant: Budget Buddy
 
-<!-- BADGES:START -->
-[![curtin](https://img.shields.io/badge/-curtin-f57c00?style=flat-square)](https://github.com/topics/curtin) [![ai-assistant](https://img.shields.io/badge/-ai--assistant-blue?style=flat-square)](https://github.com/topics/ai-assistant) [![chatbot](https://img.shields.io/badge/-chatbot-blue?style=flat-square)](https://github.com/topics/chatbot) [![edtech](https://img.shields.io/badge/-edtech-4caf50?style=flat-square)](https://github.com/topics/edtech) [![finance](https://img.shields.io/badge/-finance-blue?style=flat-square)](https://github.com/topics/finance) [![financial-tools](https://img.shields.io/badge/-financial--tools-blue?style=flat-square)](https://github.com/topics/financial-tools) [![gradio](https://img.shields.io/badge/-gradio-blue?style=flat-square)](https://github.com/topics/gradio) [![jupyter-notebook](https://img.shields.io/badge/-jupyter--notebook-blue?style=flat-square)](https://github.com/topics/jupyter-notebook) [![python](https://img.shields.io/badge/-python-3776ab?style=flat-square)](https://github.com/topics/python) [![rag](https://img.shields.io/badge/-rag-blue?style=flat-square)](https://github.com/topics/rag)
-<!-- BADGES:END -->
+## Project Overview
 
-Welcome to your project repository for the **ISYS2001 Final Programming Project**. This repo provides a starting point for building your **Smart Finance Assistant**.
+Budget Buddy is a Smart Finance Assistant built with Python, pandas and Gradio. The assistant helps users analyse personal finance transaction data from a CSV file.
 
----
+The app allows users to upload transaction data, view a finance summary, ask simple finance questions, and calculate savings goals.
 
-## 📖 Project Overview
-In this project, you will design and implement a **Smart Finance Assistant** using:
-- Python (Google Colab)
-- [hands-on-ai](https://pypi.org/project/hands-on-ai/) (chat, RAG, agent tools)
-- [Gradio](https://www.gradio.app/) (to create a simple app interface)
+## Main Features
 
-Your Assistant should include:
-- **Chat**: a finance-oriented personality bot
-- **RAG**: retrieval from CSV or other documents
-- **Agent Tool**: one custom tool (e.g., budget calculator, currency converter)
-- **Gradio UI**: a simple interface tying everything together
-- **Tests**: a Testing Section in your notebook
+- Upload and read a transaction CSV file
+- Validate required CSV columns
+- Calculate total income
+- Calculate total expenses
+- Calculate net balance
+- Show spending by category
+- Answer finance questions using uploaded CSV data
+- Provide simple budgeting and saving advice
+- Calculate savings goals using a custom tool
+- Display the app using a Gradio interface
 
----
+## Required CSV Format
 
-## 📂 Suggested Repo Layout
-You may adapt this structure or create your own. Clarity and organisation are graded in the rubric.
+The CSV file must include the following columns:
 
-```
-/README.md            ← this file
-/assignment.pdf       ← official assignment specification
-/starter_notebook.ipynb  ← scaffold notebook with six-step method
-/example_diary.md     ← sample Developer’s Diary entries
-/data/                ← your CSVs or sample datasets
-/tests/               ← your test scripts or asserts
-/ai-conversations/    ← weekly AI Evidence Packages (screenshots, notes)
-/docs/                ← pseudocode, design notes, planning docs
-```
+| Column | Description |
+|---|---|
+| date | Date of the transaction |
+| description | Short description of the transaction |
+| category | Category such as Food, Housing, Transport, Utilities or Income |
+| amount | Transaction amount |
+| type | Either income or expense |
 
----
+## Sample CSV
 
-## 🚀 Getting Started
-1. Open the `starter_notebook.ipynb` in Google Colab.
-2. Follow the **six-step methodology**:
-   1. Understand the problem
-   2. Identify inputs and outputs
-   3. Work the problem by hand
-   4. Write pseudocode
-   5. Convert to Python
-   6. Test with a variety of data
-3. Add at least one **meaningful GitHub commit per week** (Weeks 8–12).
-4. Document AI use in your **Developer’s Diary** (`/ai-conversations/` folder or a markdown file).
+```csv
+date,description,category,amount,type
+2026-05-01,Salary,Income,2500,income
+2026-05-02,Rent,Housing,900,expense
+2026-05-03,Groceries,Food,120,expense
+2026-05-04,Coffee,Food,8,expense
+2026-05-05,Bus ticket,Transport,35,expense
+2026-05-06,Phone bill,Utilities,60,expense
+2026-05-07,Part-time income,Income,300,income
+How to Run the Project
+Open smart_finance_assistant.ipynb in Google Colab.
+Run the package installation cell.
+Run the import library cell.
+Run all function cells.
+Run the Gradio interface cell.
+Open the Gradio link.
+Upload sample_transactions.csv.
+Use the chatbot and savings goal calculator.
+How to Use the App
+1. Upload CSV and Summary
 
----
+Upload a transaction CSV file and click Analyse Transactions.
 
-## ✅ Submission Requirements
-- Colab Notebook with full project implementation
-- GitHub repository with:
-  - Notebook, README, and Developer’s Diary
-  - Weekly AI Evidence Packages (Weeks 8–12)
-  - Meaningful commit history
-- Developer’s Diary entries that include:
-  - **Artifact**: screenshot or snippet of AI use
-  - **Context**: your goal
-  - **Reflection**: what worked, what didn’t, what you learned
+The app will show:
 
----
+Total income
+Total expenses
+Net balance
+Spending by category
+Basic budget warning or advice
+2. Finance Chatbot
 
-## 📊 Assessment Criteria (Summary)
-- **Functionality** – chatbot, RAG, tool, and UI integrated (30%)
-- **Testing & Debugging** – clear tests, meaningful edge cases (20%)
-- **AI Collaboration & Progress** – AI evidence + weekly commits (20%)
-- **Business Relevance** – meaningful finance problem (15%)
-- **Clarity & Reflection** – repo organisation, README, diary (15%)
+After uploading the CSV file, users can ask questions such as:
 
-For the full rubric, see `assignment.pdf`.
+Give me a summary
+What is my highest spending category?
+Give me saving advice
+Give me budget advice
+3. Savings Goal Tool
 
----
+Users can enter:
 
-## 📚 Resources
+Goal amount
+Current savings
+Monthly saving amount
 
-- **hands-on-ai Package**: [GitHub Repository](https://github.com/michael-borck/hands-on-ai)
-- **Documentation**: [DeepWiki Guide](https://deepwiki.com/michael-borck/hands-on-ai)
-- **For AI Assistants**: Share [this LLM context file](https://github.com/michael-borck/hands-on-ai/blob/main/LLM.txt) with ChatGPT/Claude/Copilot for better code suggestions
+The tool will calculate how many months are needed to reach the savings goal.
 
----
+Project Structure
+smart-finance-assistant/
+│
+├── smart_finance_assistant.ipynb
+├── README.md
+├── diary.md
+├── sample_transactions.csv
+└── screenshots/
+Testing
 
-## 💡 Tips
-- Keep your commits small and descriptive.
-- Use AI as a coding partner, not a crutch.
-- Remember: **undocumented AI use = misconduct**.
+The notebook includes a testing section with normal cases, edge cases and error cases.
 
-Good luck, and have fun building your Finance Assistant! 🎉
+The tests check:
 
----
+Valid CSV structure
+Missing CSV columns
+Savings goal calculation
+Invalid savings input
+Chatbot response before CSV upload
+Finance summary calculation
+AI Collaboration
 
-## 📜 License
+AI tools were used to help plan, code, debug and test this project. The AI collaboration process is documented in diary.md.
 
-The template code in this repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Author
 
-You are free to license your own work (your project code) under any license you choose.
+Owen Nguyen
+ISYS2001 Introduction to Business Programming
